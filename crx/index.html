@@ -202,6 +202,41 @@
           div.website a.website.navigating span{
             opacity:0.96;
           }
+          @media (max-width:767px){
+            div.content{
+              width:100%;
+            }
+            div.blocks{
+              width:100%;
+              padding-left:15px;
+              padding-right:15px;
+            }
+            div.block{
+              float:none;
+              width:100%;
+              padding:3px 0;
+            }
+            div.block-header,
+            div.block-desc{
+              margin-left:0;
+              margin-right:0;
+            }
+            div.block-name{
+              float:left;
+              width:33.33333333%;
+              padding:1px;
+            }
+            div.block-action{
+              float:left;
+              width:66.66666667%;
+              min-height:34px;
+            }
+            div.website{
+              float:left;
+              width:33.33333333%;
+              padding:1px;
+            }
+          }
           @keyframes website-launch{
             0%{
               transform:scale(1);
